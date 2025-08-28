@@ -26,7 +26,7 @@ class WeddingApp extends StatelessWidget {
         // Primary family
         fontFamily: 'NotoSans',
         // Fallback when a glyph isn’t in NotoSans (e.g., Hindi/❤️)
-        fontFamilyFallback: const ['NotoSansDevanagari'],
+        fontFamilyFallback: const ['NotoSerifDevanagari'],
       ),
       home: const HomeLanding(),
     );
@@ -365,3 +365,4 @@ class ContactsPage extends StatelessWidget {
     );
   }
 }
+
