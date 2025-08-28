@@ -1,0 +1,33 @@
+# Sneha ❤️ Shreyansh Wedding App
+
+## Project Overview
+This is a Flutter-based mobile application developed for the wedding of Sneha Jain and Shreyansh Ajmera on **13th November 2025** in Surat.  
+The app is created to share wedding details, schedules, menus, galleries, and important contacts with guests in an elegant and interactive way.
+
+## Dependencies Used
+The project uses the following Flutter dependencies (as listed in `pubspec.yaml`):
+- **flutter/material.dart** → For building the UI with Flutter’s Material Design components.
+- **google_fonts** → For custom fonts to style text across the app.
+- **cupertino_icons** → iOS-style icons used in menus and navigation.
+- **image_picker / gallery support (if added)** → To allow users to upload and view images (optional depending on setup).
+
+*(Note: You can update this file when new dependencies are added to `pubspec.yaml`.)*
+
+## Project Structure
+- **main.dart** → Entry point of the application, contains routing and navigation setup.
+- **assets/** → Stores images, icons, and static content.
+- **lib/** → Contains app screens, widgets, and supporting files.
+
+## Features
+- **Home Screen** – Elegant landing page with wedding title/logo.
+- **Events** – Detailed schedule of pre-wedding and wedding functions.
+- **Menu** – Food menus for breakfast, lunch, dinner across events.
+- **Gallery** – Guests can view photos/videos, and upload their own (if enabled).
+- **Contacts** – Quick access to important phone numbers during the wedding.
+- **Map Link** – Direct access to venue location.
+
+## Storage Location
+Save this file in the **root folder of the Flutter project** (same level as `pubspec.yaml`) so that anyone opening the project can immediately find it.
+
+---
+*Created for Sneha ❤️ Shreyansh Wedding App Project*

@@ -1,0 +1,47 @@
+name: snehawedsshreyansh
+description: "Wedding app for Sneha & Shreyansh"
+publish_to: "none"
+
+version: 1.0.4+5
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  change_app_package_name: ^1.5.0
+  # Optional tool: uncomment if you want to generate launcher icons
+  flutter_launcher_icons: ^0.13.1
+
+# Config section for flutter_launcher_icons (only one of these too)
+# If you decide to use it, keep a single block and point to your image.
+# Then run: flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: true
+  ios: true 
+  image_path: assets/icon/app_icon.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/couple.jpg
+  fonts:
+  - family: NotoSans
+    fonts:
+      - asset: assets/fonts/NotoSans-Regular.ttf
+      - asset: assets/fonts/NotoSans-Bold.ttf
+        weight: 700
+  - family: NotoSansDevanagari
+    fonts:
+      - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+      - asset: assets/fonts/NotoSansDevanagari-Bold.ttf
+        weight: 700
