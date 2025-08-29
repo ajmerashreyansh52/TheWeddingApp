@@ -32,9 +32,6 @@ jobs:
       - name: Build web (release)
         run: flutter build web --release
 
-      - name: Copy live JSON to /data
-        run: cp -r web_data build/web/data
-
       - name: Write CNAME
         run: echo "wedding.shreyanshajmera.com" > build/web/CNAME
 
