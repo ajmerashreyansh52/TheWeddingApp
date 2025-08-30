@@ -37,7 +37,7 @@ const RESOURCES = {"canvaskit/skwasm.js": "1ef3ea3a0fec4569e5d531da25f34095",
 "assets/AssetManifest.bin": "56ffd2a9139af82e4dc836148e95893b",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
-"flutter_bootstrap.js": "b6f4ec50a1b0e3b3d54187b2c25d6f6c",
+"flutter_bootstrap.js": "81e727bf20a01a05d188532cc5efe8cf",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "index.html": "2e6695cbfd1e1d39cf94fe24bdaec192",
 "/": "2e6695cbfd1e1d39cf94fe24bdaec192"};
